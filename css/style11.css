@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url('/TP/tp1/exercice1/images/img1.jpg') ;
+}
+.container{
+    display: grid;
+    grid-template-columns: 30% 1fr;
+    height: 100vh;
+    
+    
+}
+.form{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form .nombre{
+    width: 50%;
+    height: 5%;
+    border-radius: 50px;
+    font-size: 2em;
+    margin-left: 4%;
+}
+.moy{
+    margin-top: 5%;
+    width: 50%;
+    height: 5%;
+    border-radius: 50px;
+    font-size: 2em;
+    margin-left: 2%;
+}
+.btn{
+    width: 28%;
+    height: 4%;
+    border-radius: 50px;
+    font-size: 1.5em;
+    background-color: rgb(34, 133, 34);;
+    margin-top: 7%;
+    margin-left: 45%;
+    color: white;
+}
+span{
+    font-size: 2em;
+}
+.tableau{
+    /* background-color: brown; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.table{
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: normal;
+    border: 3px solid;
+    border-collapse: collapse;
+    background-color: rgb(223, 219, 219);
+    width: 70%;
+    font-size: 1em;    
+}
+.table td, .table th{
+    text-align: center;
+    padding: 8px;
+}
+.table td{
+    border-right: 1px solid #f8f8f8;
+    font-size: 12px;
+}
+.table thead{
+    color: #ffffff;
+    background: #4FC3A1;
+}
+.table thead th:nth-child(odd) {
+    color: #ffffff;
+    background: #324960;
+}
+table tr:nth-child(even) {
+    background: #F8F8F8;
+}
+span{
+    color: white;
+}

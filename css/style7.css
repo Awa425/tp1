@@ -1,0 +1,68 @@
+body{
+    background: url('/TP/tp1/exercice1/images/img1.jpg') ; 
+}
+.container{
+    display: grid;
+    grid-template-rows: 1fr 20%;
+}
+form{
+    display: grid;
+    height: 50vh;
+    justify-content: center;
+    margin-top: 10%;
+    
+}
+
+.input{
+    font-size: 2em; 
+}
+.input input{
+    width: 100%;
+    height: 35%; 
+    border-radius: 30px;
+    font-size: 80%;
+    background: none;
+    color: white;
+}
+.btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.btn input{
+    color: aqua;
+    width: 15vw;
+    height: 5vh;
+    border-radius: 20px;
+    margin: 0 auto;
+    background: none;
+    font-size: 1.5em;
+}
+span{
+    margin: 1em;
+    font-size: 1.3em;
+    color: white;
+}
+.resultat{
+    grid-row: 20%;
+    width: 30vw;
+    height: 20vh;
+    margin-left: 35%;
+    margin-top: 2%;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+}
+.btn-group{
+    display: flex;  
+}
+.btn-group .btn{
+    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
