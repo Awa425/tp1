@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url('/TP/tp1/exercice1/images/img1.jpg') ; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 50%;
+    margin-top: 5em;
+    /* background-color: antiquewhite; */
+}
+form{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    
+}
+form textarea{
+    box-shadow: 10px 10px 4px rgba(1, 78, 1, 0.719), -10px -10px 4px rgb(155, 2, 91);
+    background: none;
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+#btn{
+    box-shadow: 6px 6px 6px rgba(1, 78, 1, 0.719), -6px -6px 6px rgb(155, 2, 91);
+    height: 10vh;
+    width: 25vw;
+    margin-top: 25%;
+    font-size: 1.5em;
+    background: none;
+    color: pink;
+    font-weight: bold;
+}
+.c2{
+    margin-top: 3em;
+}

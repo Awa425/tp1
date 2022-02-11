@@ -15,7 +15,7 @@ section{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 100%;
+    width: 44vw;
     height: 40vh;
     margin-top: 50%;
     box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
@@ -23,7 +23,7 @@ section{
 }
 input{
     border-radius: 10px;
-    width: 20vw;
+    width: 30vw;
     height: 6vh;
     background: none;
     color: aqua;
@@ -33,4 +33,23 @@ span{
     margin: 1em;
     font-size: 1.3em;
     color: white;
+}
+.menu{
+    width: 25vw;
+    margin-left: -12em;
+    display: flex;
+    margin-top: -13em;
+    /* height: 3em; */
+    /* background-color: red; */
+    position: relative;
+}
+.menu a{
+    font-size: 1.5em;
+    font-size: 1.5em;
+    color: white;
+    margin: 3px;
+    text-decoration: none;
+    background: none;
+    border-radius: 6px;
+    box-shadow: 2px 2px 2px #cbced1, -2px -2px 2px white;
 }

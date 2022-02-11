@@ -11,9 +11,10 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="liens">
-            <a href="/TP/tp1/">Menu</a>
-            <!-- <a href="/TP/tp1/exercice2">Suivant</a> -->
+<div class="menu"> 
+        <a href="/TP/tp1/" >Menu</a>
+        <a href="/TP/tp1/exercice4">Suivant</a>
+        <a href="/TP/tp1/exercice2">Precedant</a>      
     </div>
     <form action="controller.php" method="post">   
         <section>

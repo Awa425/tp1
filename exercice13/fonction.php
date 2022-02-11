@@ -16,19 +16,20 @@
     }
     function tablaux_resultats(string $chaine)
     {
-        trim($chaine);
-        preg_replace('/\s+/', ' ',$chaine);
-        $decouper=explode(". ", $chaine); 
-        foreach ($decouper as $key => $value) {
-            if (preg_match('/^[A-Za-z0-9]/',$value) && !preg_match('/[!@#$%^&*()]/',$value) && strlen($value)>=10) {
-                $resultat[$key]=$value; 
-                // echo "<br>";
-                // echo($resultat[$key])."<br>"; 
+        $resultat=array();
+        $eliminEspace=trim($chaine);
+        $eliminEspace=preg_replace('/\s+/', ' ', $eliminEspace);
+        $eliminEspace=explode(". ", $eliminEspace); 
+        foreach ($eliminEspace as $key => $value) 
+        {
+            $patern1="#^[A-Z0-9]#";
+            $patern2="#[\@\#\$\%\^\&]#";
+
+            if (preg_match($patern1 ,$value) && !preg_match($patern2 ,$value)) 
+            {    
+                $resultat[]=$value;
             }
         }
-        
          return $resultat;
     }
-    // print_r(tablaux_resultats("Svp decSDFJKDSJFLK. Pour sav@oir. Le nombrty ertyu. "));
-    
 ?>

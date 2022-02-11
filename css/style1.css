@@ -34,4 +34,31 @@ span{
     font-size: 1.3em;
     color: white;
 }
+.liens {
+    display: flex;
+    
+}
+.liens a{
+    
+    font-size: 2em;
+    color: white;
+    margin-top: -6em;
+    margin-left: -8em;
+    background: none;
+    border-radius: 12px;
+}
+.prec{
+   
+    width: 11vw;
+    height: 6vh;
+    margin-top: -19em;
+    flex: end;
+    border-radius: 6px;
+}
+.prec a{
+    font-size: 2em;
+    color: white;
+    box-shadow: 2px 2px 2px #cbced1, -2px -2px 2px white;
+    text-decoration: none;
 
+}

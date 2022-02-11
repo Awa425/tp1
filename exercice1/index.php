@@ -13,10 +13,10 @@
     <title>Document</title>
 </head>
 <body>
-<div class="liens">
-            <a href="/TP/tp1/">Menu</a>
-            <!-- <a href="/TP/tp1/exercice2">Suivant</a> -->
-    </div> 
+    <div class="liens">
+            <a href="/TP/tp1/exercice2">Suivant</a>
+            <a href="/TP/tp1/" >Menu</a>
+    </div>    
     <form action="controller.php" method="post">  
         <section>
         <input type="submit" name="valider" value="generer et calculer">

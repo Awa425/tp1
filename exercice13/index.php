@@ -8,7 +8,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/TP/tp1/css/style5.css">
     <title>Document</title>
 </head>
 <body>
@@ -17,8 +17,8 @@
             <!-- <a href="/TP/tp1/exercice2">Suivant</a> -->
     </div>
     <div class="container">
-        <div class="header">header</div>
-        <div class="main">
+        <!-- <div class="header">header</div> -->
+        <!-- <div class="main"> -->
             <form action="controller.php" method="post">
                 <div class="text">
                     <p>Veuillez saisi un text</p>
@@ -27,16 +27,16 @@
                 </div>
                 <div class="text">
                     <p>Apres Correction </p>  
-                    <textarea name="text2" id="text2" cols="50" rows="20" readonly> 
-                        <?php 
-                            if(isset($_SESSION['text2']) && $_SESSION['text2']!=NULL)
-                            echo $_SESSION['text2']; 
-                            else
-                            echo $_SESSION['text1'];
+                    <textarea name="text2" id="text2" cols="50" rows="20" readonly><?php 
+                            if(isset($_SESSION['text2']))
+                                foreach ($_SESSION['text2'] as $key => $value) {
+                                   print_r( $value);
+                                   echo ". ";
+                                }
                         ?></textarea>
                 </div>
             </form>
-        </div>
+        <!-- </div> -->
     </div>
 </body>
 </html>

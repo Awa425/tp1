@@ -12,10 +12,12 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="liens">
-            <a href="/TP/tp1/">Menu</a>
-            <!-- <a href="/TP/tp1/exercice2">Suivant</a> -->
+    <div class="menu"> 
+        <a href="/TP/tp1/" >Menu</a>
+        <a href="/TP/tp1/exercice3">Suivant</a>
+        <a href="/TP/tp1/exercice1">Precedant</a>      
     </div>
+    
     <form action="controller.php" method="post">   
         <section>
         <input type="submit" name="valider" value="generer et calculer">

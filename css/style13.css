@@ -1,21 +1,22 @@
 body{
     padding: 0;
     margin: 0;
-    background-color: rgb(151, 151, 236);
+    background: url('/TP/tp1/exercice1/images/img1.jpg') ; 
+
 }
-.container{
-    display: grid;
-    grid-template-rows: 30% 1fr;
-}
+/* .container{
+    display: flex;
+} */
 form{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    justify-content: center;
     justify-content: space-between;
 
 }
+
 .text textarea{
     border-radius: 10px;
-    font-size: 1.5em;
+    font-size: 2em;
     border: 2px solid blue;
     text-align: start;
 }

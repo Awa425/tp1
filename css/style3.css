@@ -15,16 +15,15 @@ section{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 100%;
-    height: 60vh;
+    width: 61vh;
     margin-top: 50%;
     box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
     
 }
 input{
     border-radius: 10px;
-    width: 20vw;
-    height: 6vh;
+    width: 27vw;
+   
     background: none;
     color: aqua;
     font-size: 2em;
@@ -34,3 +33,4 @@ span{
     font-size: 1.3em;
     color: white;
 }
+

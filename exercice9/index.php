@@ -21,7 +21,7 @@
         <div>
             <form action="controller.php" method="POST">
                 <div class="input">
-                    <span>Entrer un nombre  :</span> <input type="text" name="nombre" required value="<?php if (isset($_SESSION['nombre'])) {
+                    <span>Entrer un nombre  :</span> <input type="text" name="nombre" value="<?php if (isset($_SESSION['nombre'])) {
                        echo $_SESSION['nombre'];
                     }?>"> <br>
                 </div>
