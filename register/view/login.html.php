@@ -14,12 +14,11 @@
 <body>
   <div class="main">
     <p class="sign">Se connecter</p>
-    <form class="form1">
+    <form class="form1" action="../controller/security.php" method="POST">
       <input class="un " type="text"  placeholder="Login">
       <input class="pass" type="password"  placeholder="Password">
-      <a class="submit" >Connexion</a>                
-    </div>
-     
+      <input type="submit" name="connecter" class="submit" value="Connexion"></input>                
+    </div>   
 </body>
 
 </html>

@@ -1,3 +1,4 @@
+<?php session_start();?>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -20,31 +21,61 @@
 					<label class="form_label">
 						<input type="text" class="input" name="nom" >
 						<span>Nom</span>
+						<p class="message"><?php if (isset($_SESSION['champsVide'])) {
+							echo $_SESSION['champsVide'];
+						}else {
+							echo 'champs obligatoire';
+						}?></p>
 						<span class="border"></span>
 					</label>
 					<label class="form_label">
 						<input type="text" class="input" name="prenom">
 						<span>Prenom</span>
+						<p class="message"><?php if (isset($_SESSION['champsVide'])) {
+							echo $_SESSION['champsVide']; 
+						} else {
+							echo 'champs obligatoire';
+						}?></p>
 						<span class="border"></span>
 					</label>
 					<label class="form_label">
 						<input type="mail" class="input" name="login">
 						<span>Login</span>
+						<p class="message"><?php if (isset($_SESSION['champsVide'])) {
+							echo $_SESSION['champsVide'];
+						}else {
+							echo 'champs obligatoire';
+						}?></p>
 						<span class="border"></span>
 					</label>
 					<label class="form_label">
-						<input type="text" class="input" name="pass">
+						<input type="password" class="input" name="pass">
 						<span>Password</span>
+						<p class="message"><?php if (isset($_SESSION['champsVide'])) {
+							echo $_SESSION['champsVide'];
+						}else {
+							echo 'champs obligatoire';
+						}?></p>
 						<span class="border"></span>
 					</label>
 					<label class="form_label">
-						<input type="text" class="input" name="confpass">
+						<input type="password" class="input" name="confpass">
 						<span for="">Confirm password</span>
+						<p class="message"><?php if (isset($_SESSION['champsVide'])) {
+							echo $_SESSION['champsVide']; 
+						}else {
+							echo 'champs obligatoire';
+						}?></p>
 						<span class="border"></span>
 					</label>
 					<label class="form_label">
 						<input type="text" class="input" name="role" placeholder="Admin ou Visiteur">
 						<span>Role</span>
+						<p class="message"><?php if (isset($_SESSION['champsVide'])) {
+							echo $_SESSION['champsVide'];
+						}else {
+							echo 'champs obligatoire';
+						}?></p>
 						<span class="border"></span>
 					</label>
 					<button name="btn">Inscrire 

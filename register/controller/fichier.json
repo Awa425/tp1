@@ -1,0 +1,82 @@
+[
+    {
+        "nom": "diop",
+        "prenom": "awa",
+        "login": "diopawa425@gmail.com",
+        "pass": "ok",
+        "confpass": "ok",
+        "role": "admin"
+    },
+    {
+        "nom": "q",
+        "prenom": "q",
+        "login": "ww@ww.ww",
+        "pass": "ok",
+        "confpass": "ok",
+        "role": "admin"
+    },
+    {
+        "nom": "qq",
+        "prenom": "awa",
+        "login": "diopawa425@gmail.com",
+        "pass": "ok",
+        "confpass": "ok",
+        "role": "admin"
+    },
+    {
+        "nom": "q",
+        "prenom": "q",
+        "login": "diopawa425@gmail.com",
+        "pass": "ok",
+        "confpass": "ok",
+        "role": "admin"
+    },
+    {
+        "nom": "q",
+        "prenom": "q",
+        "login": "diopawa425@gmail.com",
+        "pass": "ok",
+        "confpass": "ok",
+        "role": "admin"
+    },
+    {
+        "nom": "Q",
+        "prenom": "q",
+        "login": "diopawa425@gmail.com",
+        "pass": "ok",
+        "confpass": "ok",
+        "role": "visiteur"
+    },
+    {
+        "nom": "aa",
+        "prenom": "awa",
+        "login": "diopawa425@gmail.com",
+        "pass": "ok",
+        "confpass": "ok",
+        "role": "admin"
+    },
+    {
+        "nom": "qq",
+        "prenom": "awa",
+        "login": "diopawa425@gmail.com",
+        "pass": "ok",
+        "confpass": "ok",
+        "role": "admin"
+    },
+    {
+        "nom": "qwen",
+        "prenom": "awa",
+        "login": "diopawa425@gmail.com",
+        "pass": "ok",
+        "confpass": "ok",
+        "role": "admin"
+    },
+    {
+        "nom": "qq",
+        "prenom": "awa",
+        "login": "diopawa425@gmail.com",
+        "pass": "ok",
+        "confpass": "ok",
+        "role": "admin"
+    }
+]

@@ -11,9 +11,11 @@
 <body>
     <ul class="menu">
         <li><a href="#" class="active">Accueil</a></li>
-        <li><a href="#">Utilisateurs</a></li>
+        <!-- <li><a href="#">Utilisateurs</a></li> -->
         <li><a href="./register.html.php">Inscription</a></li>
-        <li><a href="./login.html.php">Deconnexion</a></li>
+        <!-- <li><a href="./login.html.php">Deconnexion</a></li> -->
+        <li><a href="../logout.php">Deconnexion</a></li>
+
         <li class="slider"></li>
     </ul>
 </body>

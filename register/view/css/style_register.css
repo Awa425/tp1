@@ -78,6 +78,10 @@
     margin-bottom: 55px;
     line-height: 1.8; }
   
+    .inner form label .message{
+      text-align: start;
+      color: red;
+    }
   .form_label 
   {
     position: relative;
