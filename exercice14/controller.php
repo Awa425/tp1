@@ -37,8 +37,7 @@
                         $_SESSION['kirene']++;
                     }
 
-                    $chaine2[]=$value; 
-                     
+                    $chaine2[]=$value;    
                 }
             }
                 else 
