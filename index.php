@@ -19,7 +19,6 @@
                 <a href="./exercice3">Exercice 3</a>
                 <a href="./exercice4">Exercice 4</a>
                 <a href="./exercice5">Exercice 5</a>
-                <a href="./exercice6">Exercice 6</a>
                 <a href="./exercice7">Exercice 7</a>
                 <a href="./exercice8">Exercice 8</a>
                 <a href="./exercice9">Exercice 9</a>

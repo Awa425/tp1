@@ -39,5 +39,5 @@
 </html>
 <?php
     
-    session_destroy($_SESSION);
+    // session_destroy($_SESSION);
 ?>

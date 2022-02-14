@@ -1,3 +1,8 @@
+<?php session_start();
+    if (!isset($_SESSION['login']) && !isset($_SESSION['pass'])) {
+        header('location:login.html.php');
+    }
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,7 +19,6 @@
         <li><a href="./register.html.php">Inscription</a></li>
         <!-- <li><a href="./login.html.php">Deconnexion</a></li> -->
         <li><a href="../logout.php">Deconnexion</a></li>
-
         <li class="slider"></li>
     </ul>
     

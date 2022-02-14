@@ -22,11 +22,11 @@
                 <form action="controller.php" method="POST">
                     <div class="input">
                         <label for="francais">Francais</label>
-                        <input type="radio" name="lang" value="francais" id="francais">
+                        <input type="radio" name="lang" value="francais" id="francais" >
                     </div>
                     <div class="input">
                         <label for="anglais">Anglais</label>
-                        <input type="radio" name="lang" value="anglais" id="anglais">
+                        <input type="radio" name="lang" value="anglais" id="anglais" >
                     </div>
                     <div class="input">
                         <input type="submit" name="envoyer" value="envoyer" class="btn">

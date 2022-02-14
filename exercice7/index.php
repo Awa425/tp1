@@ -1,7 +1,7 @@
 <?php 
     session_start();
     require 'fonction.php';
-    include '/opt/lampp/htdocs/TP/tp1/index.php';
+    // include '/opt/lampp/htdocs/TP/tp1/index.php';
    
 ?>
 <!DOCTYPE html>
@@ -14,10 +14,10 @@
     <title>Date</title>
 </head>
 <body>
-    <div class="liens">
+    <!-- <div class="liens"> -->
             <a href="/TP/tp1/">Menu</a>
             <!-- <a href="/TP/tp1/exercice2">Suivant</a> -->
-    </div>
+    <!-- </div> -->
     <div class="container">
         <form action="controller.php" method="POST">
             <div class="input">
@@ -26,7 +26,7 @@
                 } ?>" > <br>
             </div>
             <div class="input">
-                <span>Mois :</span> <input type="text" name="mois" value="<?php if (isset($_SESSION)) {
+                <span>Mois :</span> <input type="text" name="mois" value="<?php if (isset($_SESSION['mois'])) {
                    echo $_SESSION['mois'];
                }?>" >  <br>
             </div>

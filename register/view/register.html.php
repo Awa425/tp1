@@ -17,7 +17,8 @@
 			<div class="inner">
 				<form action="../controller/security.php" method="POST">
 					<h3>Contact Us</h3>
-					<p>Compte de connexion.</p>
+					<p class="entete_erreur">Compte de connexion.</p>
+					<p><?php if(isset($_SESSION['erreur_stockage'])) echo $_SESSION['erreur_stockage'];?></p>
 					<label class="form_label">
 						<input type="text" class="input" name="nom" >
 						<span>Nom</span>

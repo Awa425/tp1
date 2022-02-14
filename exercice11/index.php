@@ -19,7 +19,7 @@
     <div class="container">
         <div class="form">
             <form action="controller.php" method="post">
-                <span>Nombre</span> : <input type="text" class="nombre" name="nombre" value="<?php if (isset($_SESSION)) {
+                <span>Nombre</span> : <input type="text" class="nombre" name="nombre" value="<?php if (isset($_SESSION['nmbre'])) {
                    echo $_SESSION['nombre'];
                 } ?>"> <br>
                 <span>Moyenne:</span><input type="text" name="moy" class="moy" value="<?php if (isset($_SESSION['nombre']) && is_numeric($_SESSION['nombre'])) {
@@ -58,7 +58,7 @@
                         <th>Cles</th>
                         <th>Valeurs</th>
                     </tr>
-                <?php 
+                <?php if(isset($_SESSION['nombre'])){
                     $tab=suite_valeur($_SESSION['nombre']);
                     $moy=moyenne($_SESSION['nombre']);
                     foreach ($tab as $key => $value) {   
@@ -69,7 +69,7 @@
                                 <td><?php echo $value?></td>
                             </tr>
                       <?php }
-                    }
+                    }  }
                 ?>
             </table>
             <table class="table">
@@ -78,6 +78,7 @@
                         <th>Valeurs</th>
                     </tr>
                 <?php 
+                if(isset($_SESSION['nombre'])){
                     $tab=suite_valeur($_SESSION['nombre']);
                     $moy=moyenne($_SESSION['nombre']);
                     foreach ($tab as $key => $value) {   
@@ -89,6 +90,7 @@
                             </tr>
                       <?php }
                     }
+                } 
                 ?>
             </table>
         </div>
@@ -96,5 +98,5 @@
 </body>
 </html>
 <?php
-    session_destroy($_SESSION);
+ 
 ?>

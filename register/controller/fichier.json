@@ -1,48 +1,32 @@
 [
     {
+        "nom": "q",
+        "prenom": "q",
+        "login": "q@m.com",
+        "pass": "ok",
+        "confpass": "ok",
+        "role": "admin"
+    },
+    {
+        "nom": "cc",
+        "prenom": "cc",
+        "login": "diopawa@gmail.com",
+        "pass": "ok",
+        "confpass": "ok",
+        "role": "admin"
+    },
+    {
+        "nom": "bb",
+        "prenom": "awa",
+        "login": "fd@ert.ert",
+        "pass": "ok",
+        "confpass": "ok",
+        "role": "admin"
+    },
+    {
         "nom": "diop",
-        "prenom": "awa",
-        "login": "diopawa425@gmail.com",
-        "pass": "ok",
-        "confpass": "ok",
-        "role": "admin"
-    },
-    {
-        "nom": "q",
-        "prenom": "q",
-        "login": "ww@ww.ww",
-        "pass": "ok",
-        "confpass": "ok",
-        "role": "admin"
-    },
-    {
-        "nom": "qq",
-        "prenom": "awa",
-        "login": "diopawa425@gmail.com",
-        "pass": "ok",
-        "confpass": "ok",
-        "role": "admin"
-    },
-    {
-        "nom": "q",
-        "prenom": "q",
-        "login": "diopawa425@gmail.com",
-        "pass": "ok",
-        "confpass": "ok",
-        "role": "admin"
-    },
-    {
-        "nom": "q",
-        "prenom": "q",
-        "login": "diopawa425@gmail.com",
-        "pass": "ok",
-        "confpass": "ok",
-        "role": "admin"
-    },
-    {
-        "nom": "Q",
-        "prenom": "q",
-        "login": "diopawa425@gmail.com",
+        "prenom": "fama",
+        "login": "fama@gmail.com",
         "pass": "ok",
         "confpass": "ok",
         "role": "visiteur"
@@ -50,29 +34,13 @@
     {
         "nom": "aa",
         "prenom": "awa",
-        "login": "diopawa425@gmail.com",
+        "login": "awa@yahoo.com",
         "pass": "ok",
         "confpass": "ok",
         "role": "admin"
     },
     {
-        "nom": "qq",
-        "prenom": "awa",
-        "login": "diopawa425@gmail.com",
-        "pass": "ok",
-        "confpass": "ok",
-        "role": "admin"
-    },
-    {
-        "nom": "qwen",
-        "prenom": "awa",
-        "login": "diopawa425@gmail.com",
-        "pass": "ok",
-        "confpass": "ok",
-        "role": "admin"
-    },
-    {
-        "nom": "qq",
+        "nom": "q",
         "prenom": "awa",
         "login": "diopawa425@gmail.com",
         "pass": "ok",

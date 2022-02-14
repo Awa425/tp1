@@ -12,7 +12,7 @@
         <h1>Bienvenue</h1>
             <ul class="menu">
             <li><a href="./view/register.html.php">Inscription</a></li>
-            <li><a href="./view/login.html.php">Deconnexion</a></li>
+            <li><a href="./view/login.html.php">Se connecter</a></li>
             <!-- <li class="slider"></li> -->
         </ul>
     </div>

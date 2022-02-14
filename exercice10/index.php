@@ -50,5 +50,5 @@
 </html>
 <?php
     // unset($_SESSION);
-    session_destroy($_SESSION);
+    // session_destroy($_SESSION);
 ?>

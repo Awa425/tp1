@@ -21,8 +21,8 @@
         
         <section>
         <input type="submit" name="valider" value="generer et permuter">
-            <span><?php echo "Avant permutation, on a : " .$_SESSION['a1']." et ".$_SESSION['b1'];?> <br></span>
-            <span><?php echo "Apres permutation, on a : " .$_SESSION['a']." et ".$_SESSION['b'];?> <br></span>
+            <span><?php if(isset($_SESSION['a1'])&& isset($_SESSION['b1'])) echo "Avant permutation, on a : " .$_SESSION['a1']." et ".$_SESSION['b1'];?> <br></span>
+            <span><?php if(isset($_SESSION['a'])&& isset($_SESSION['b'])) echo "Apres permutation, on a : " .$_SESSION['a']." et ".$_SESSION['b'];?> <br></span>
         </section>
     </form>
 </body>

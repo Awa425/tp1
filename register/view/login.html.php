@@ -1,7 +1,6 @@
 
-
+<?php session_start();?>
 <html>
-
 <head>
   <link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
@@ -15,8 +14,11 @@
   <div class="main">
     <p class="sign">Se connecter</p>
     <form class="form1" action="../controller/security.php" method="POST">
-      <input class="un " type="text"  placeholder="Login">
-      <input class="pass" type="password"  placeholder="Password">
+      <p class="erreur"><?php if (isset($_SESSION['errAuthentification']))  {
+        echo $_SESSION['errAuthentification'];
+      }?></p>
+      <input class="un " type="text" name="login"  placeholder="Login">
+      <input class="pass" type="password" name="pass"  placeholder="Password">
       <input type="submit" name="connecter" class="submit" value="Connexion"></input>                
     </div>   
 </body>

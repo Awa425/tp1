@@ -20,8 +20,8 @@
     <form action="controller.php" method="post">   
         <section>
             <input type="submit" name="valider" value="generer et calculer">
-            <span><?php echo "La distance entre le point A(".$_SESSION['xa'].",".$_SESSION['ya'].") et B(".$_SESSION['xb'].",".$_SESSION['yb'].") est :<br> ";?> <br></span>
-            <span><?php echo $_SESSION['res']; ?></span>
+            <span><?php if(isset($_SESSION['xa'])&& isset($_SESSION['ya']) && isset($_SESSION['xb'])&& isset($_SESSION['yb'])) echo "La distance entre le point A(".$_SESSION['xa'].",".$_SESSION['ya'].") et B(".$_SESSION['xb'].",".$_SESSION['yb'].") est :<br> ";?> <br></span>
+            <span><?php if(isset($_SESSION['res']))  echo $_SESSION['res']; ?></span>
         </section>
     </form>
 </body>

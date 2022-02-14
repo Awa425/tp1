@@ -40,3 +40,8 @@ form textarea{
 .c2{
     margin-top: 3em;
 }
+.menu a{
+    color: aliceblue;
+    margin-right: -20px;
+    z-index: 1;
+}

@@ -196,6 +196,9 @@
       button:hover i {
         -webkit-transform: translateX(4px);
         transform: translateX(4px); }
+  p .entete_erreur{
+    color: red;
+  }      
   
   @media (max-width: 767px) {
     h3 {

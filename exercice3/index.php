@@ -19,12 +19,12 @@
     <form action="controller.php" method="post">   
         <section>
         <input type="submit" name="valider" value="generer et calculer">
-            <span><?php echo "La somme de ".$_SESSION['a']." et de ".$_SESSION['b']." est : " .$_SESSION['som'];?> <br></span>
-            <span><?php echo "La difference de ".$_SESSION['a']." et de ".$_SESSION['b']." est : " .$_SESSION['diff'];?> <br></span>
-            <span><?php echo "Le produit de ".$_SESSION['a']." et de ".$_SESSION['b']." est : " .$_SESSION['pro'];?> <br></span>
-            <span><?php echo "Le modulo de ".$_SESSION['a']." et de ".$_SESSION['b']." est : " .$_SESSION['mod'];?> <br></span>
-            <span><?php echo "Le carre de ".$_SESSION['a']." est : " .$_SESSION['carA'];?> <br></span>
-            <span><?php echo "Le carre de ".$_SESSION['b']." est : " .$_SESSION['carB'];?> <br></span>
+            <span><?php if(isset($_SESSION['som'])) echo "La somme de ".$_SESSION['a']." et de ".$_SESSION['b']." est : " .$_SESSION['som'];?> <br></span>
+            <span><?php if(isset($_SESSION['diff'])) echo "La difference de ".$_SESSION['a']." et de ".$_SESSION['b']." est : " .$_SESSION['diff'];?> <br></span>
+            <span><?php if(isset($_SESSION['pro'])) echo "Le produit de ".$_SESSION['a']." et de ".$_SESSION['b']." est : " .$_SESSION['pro'];?> <br></span>
+            <span><?php if(isset($_SESSION['mod'])) echo "Le modulo de ".$_SESSION['a']." et de ".$_SESSION['b']." est : " .$_SESSION['mod'];?> <br></span>
+            <span><?php if(isset($_SESSION['carA'])) echo "Le carre de ".$_SESSION['a']." est : " .$_SESSION['carA'];?> <br></span>
+            <span><?php if(isset($_SESSION['carB'])) echo "Le carre de ".$_SESSION['b']." est : " .$_SESSION['carB'];?> <br></span>
         </section>
     </form>
 </body>

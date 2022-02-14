@@ -22,17 +22,18 @@
             <form action="controller.php" method="post">
                 <div class="text">
                     <p>Veuillez saisi un text</p>
-                    <textarea name="text1" id="text1" cols="50" rows="20"><?php echo $_SESSION['text1']; ?></textarea> <br>
+                    <textarea name="text1" id="text1" cols="50" rows="20"><?php if(isset($_SESSION['text1'])) echo $_SESSION['text1']; ?></textarea> <br>
                     <input type="submit" name="valider" value="valider" class="btn">
                 </div>
                 <div class="text">
                     <p>Apres Correction </p>  
                     <textarea name="text2" id="text2" cols="50" rows="20" readonly><?php 
-                            if(isset($_SESSION['text2']))
+                            if(isset($_SESSION['text2'])){
                                 foreach ($_SESSION['text2'] as $key => $value) {
                                    print_r( $value);
                                    echo ". ";
                                 }
+                            }    
                         ?></textarea>
                 </div>
             </form>

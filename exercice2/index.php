@@ -21,9 +21,9 @@
     <form action="controller.php" method="post">   
         <section>
         <input type="submit" name="valider" value="generer et calculer">
-            <span><?php echo "La surface est : " .$_SESSION['surface'];?> <br></span>
-            <span><?php echo "Le Perimetre est : " .$_SESSION['perimetre'];?> <br></span>
-            <span><?php echo "Le Diagonal est : " .$_SESSION['diagonal'];?> <br></span>
+            <span><?php if(isset($_SESSION['surface'])) echo "La surface est : " .$_SESSION['surface'];?> <br></span>
+            <span><?php if(isset($_SESSION['perimetre'])) echo "Le Perimetre est : " .$_SESSION['perimetre'];?> <br></span>
+            <span><?php if(isset($_SESSION['diagonal'])) echo "Le Diagonal est : " .$_SESSION['diagonal'];?> <br></span>
         </section>
     </form>
 </body>

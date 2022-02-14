@@ -1,3 +1,8 @@
+<?php 
+    session_start();
+    $old_record = json_decode(file_get_contents('../controller/fichier.json'), true);
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,8 +15,8 @@
 <body>
     <div>
         <ul class="menu">
-            <li><a href="#" class="active">Accueil</a></li>
-            <li><a href="#">Utilisateurs</a></li>
+            <li><a href="./accueil.admin.html.php" >Accueil</a></li>
+            <li><a href="#" class="active">Utilisateurs</a></li>
             <li><a href="./register.html.php">Inscription</a></li>
             <!-- <li><a href="./login.html.php">Deconnexion</a></li> -->
             <li><a href="../logout.php">Deconnexion</a></li>
@@ -30,12 +35,17 @@
             </tr>
             </thead>
             <tbody>
+                <?php foreach ($old_record as $value) { ?>
+                    <tr>
+                        <td><?php echo $value['nom'];?></td>
+                        <td><?php echo $value['prenom'];?></td>
+                        <td><?php echo $value['login'];?></td>
+                        <td><?php echo $value['pass'];?></td>
+                        <td><?php echo $value['role'];?></td> <?php
+                    }?>
+                    </tr> 
             <tr>
-                <td>Content 1</td>
-                <td>Content 1</td>
-                <td>Content 1</td>
-                <td>Content 1</td>
-                <td>Content 1</td>
+               
             </tr>
             <tbody>
         </table>
