@@ -11,6 +11,8 @@
   body {
     font-family: 'PT Sans', Arial, Verdana;
     background-color: rgb(0, 0, 24);
+    /* background-image: url('../images/rick-rothenberg-ftEmL-RzPwU-unsplash.jpg'); */
+    
   }
   .main{
     height: 100vh;

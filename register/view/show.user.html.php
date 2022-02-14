@@ -1,3 +1,8 @@
+<?php session_start();
+    if (!isset($_SESSION['login']) && !isset($_SESSION['pass'])) {
+        header('location:login.html.php');
+    }
+?>
 <?php 
     session_start();
     $old_record = json_decode(file_get_contents('../controller/fichier.json'), true);

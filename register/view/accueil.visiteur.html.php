@@ -1,4 +1,9 @@
 
+<?php session_start();
+    if (!isset($_SESSION['login']) && !isset($_SESSION['pass'])) {
+        header('location:login.html.php');
+    }
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
